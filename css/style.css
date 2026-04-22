@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+}
+.clr{
+    clear: both;
+}
+
+/* Start Home */
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/images1.jpg);
+    background-size: cover; 
+    background-position: center center;
+
+}
+.navbar{
+    background-color: transparent;
+    padding-top: 20px;
+    display: flex;
+    gap: 600px;
+}
+
+.navbar-logo{
+    display: inline-block;
+    margin-left: 50px;
+    padding-left: 50px;
+
+}
+.navbar-logo img{
+    width: 200px;
+}
+.navbar-list{
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+.navbar-list li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home-contet{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.home-contet h1{
+    font-size: 76px;
+    font-weight: bold;
+}
+.home-contet p{
+    font-size: 22px;
+}
+.home-contet button{
+    height: 60px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 15px 28px;
+    
+}
+.learn-more{
+    background-color:#8e7754 ;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-right: 15px;
+}
+.contact-btn{
+    background-color: transparent;
+    font-weight: bold;
+    border: white solid 2px;
+    color: white;
+}
+
+/* End Home */
+
+
+/* Start Who we are */
+.who-we-are{
+    width:100%;
+    padding-top: 90px;
+    padding-bottom: 60px;
+   display: inline-block;
+    
+}
+.who-we-are-img{
+    width:35%;
+    padding-left: 140px;
+    display: inline-block;
+}
+.who-we-are-content{
+    width:40%;
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.who-we-are-content h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.who-we-are-content p{
+    font-size: 17px;
+    font-weight: 400;
+    color: RGB(104, 104, 104);
+    line-height: 1.8;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+}
+.who-we-are-content li{
+    font-size: 17px;
+    font-weight: 400;
+    color: RGB(104, 104, 104);
+    margin-bottom: 50px;
+}
+/* End Who we are */
+
+/* Start Our Location */
+
+.our-location{
+width: 100%;
+display: inline-block;
+padding-top: 90px;
+padding-bottom: 90px;
+background-color: rgb(248, 248, 248);
+}
+.our-location-content{
+    width: 37%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 140px;
+    margin-top: 50px;
+
+}
+.our-location img{
+    width: 37%;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+.our-location-content h2{
+    font-size: 32px; 
+    font-weight: 400;
+} 
+.our-location-content p{
+    font-size: 16px;
+    font-weight:400 ;
+    line-height: 1.8;
+    color: RGB(104, 104, 104);
+    word-spacing: 1px;
+}
+
+/* End Our Loacation */
+
+/* Start Our Baking */
+
+.our-baking{
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.our-baking-container{
+    margin-left: 100px;
+    padding-left:70px;
+
+}
+.our-baking-content{
+    float:left;
+    width: 26%;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.our-baking-content img{
+    width: 100%;
+}
+.our-baking h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.our-baking p{
+    font-size: 17px;
+    font-weight: 400;
+    color: RGB(136, 136, 136);
+    line-height: 1.8;
+}
+.our-baking h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: RGB(48, 48, 48);
+}
+
+/* End Our Baking */
+
+/* Start Contact information */
+
+.contact-info{
+    width: 100%;
+    background-color: #F8F8F8;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.contact-info-contant{
+    width: 37%;
+    float: left;
+    margin-left: 150px;
+}
+.contact-info img{
+    width: 35%;
+    float: right;
+    margin-right: 150px;
+}
+.contact-info h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+.contact-info p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: RGB(136, 136, 136);
+}
+.contact-info li{
+    color:RGB(104, 104, 104);
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+/* End Contact information */
+
+
+/* Start Footer  */
+.footer{
+    background-color: #403D38;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer-content{
+    width: 22%; 
+    float: left;
+}
+.footer-content h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.footer-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: RGB(150, 150, 150);
+}
+.footer-content li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: RGB(150, 150, 150);
+}
+hr{
+    border-top: 1px solid #44423D ;
+    border-bottom: 1px solid #44423D ;
+    border-right: 1px solid #44423D ;
+    border-left: 1px solid #44423D ;
+    margin-right: 30px;
+}
+.footer-container{
+    width: 90%;
+    padding-left: 150px;
+
+}
+.copyrights{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+a img{
+    width: 40px;
+    margin-right: 5px; 
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.copyrights p{
+    color: RGB(119, 119, 119);
+    margin-top: 20px;
+}
+/* End Footer  */
